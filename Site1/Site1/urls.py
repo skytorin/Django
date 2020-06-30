@@ -21,7 +21,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', include('WebPage1.urls')),
     url(r'^cat/', include('WebPage2.urls')),
+    url(r'^blog/', include('WebPage3.urls')),
 #    url(r'^$', include('WebPage1.urls', namespace='webpage1')),
-#    url(r'^cat/', include('WebPage2.urls', namespace='webpage2')),
+#    url(r'^cat/', include('WebPage2.urls', namespace='webpage3')),
 
 ]

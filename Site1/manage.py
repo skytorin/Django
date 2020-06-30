@@ -20,3 +20,11 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
+
+# Список частых команд
+# python manage.py createsuperuser             # создаем суперпользака для админки
+# python manage.py startapp WebPage3           # Создание нового приложения в проекте
+# python manage.py makemigrations WebPage3     # Сообщим Django что внесли изменения в модели
+# python manage.py migrate WebPage3            # Проверка миграцичя
+#
+#

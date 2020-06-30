@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # My Firsts Web Page
     'WebPage1',
     'WebPage2',
+    'WebPage3',
 
 ]
 
